@@ -6,6 +6,8 @@
 
 #### So here we have a public leaderboard and a private leaderboard. Each of them use a different subset of the testing set test.csv (well we can just treat them as two different testing sets). For the public leaderboard, you can try 3 times per day and observe the performance right away. Why should we limit the number of trials per day?
 
+This not only forces the people to think on how their model works and how to optimise it more before trials as well as save computation resources but also limits the chance to overfit the training dataset and evens the playing field for all the people by providing only 3 trials per day.
+
 #### -------------------------------------------------------------
 
 #### For the private leaderboard, it will be used only after the assignment submission deadline for evaluation. Why it is designed like this??
@@ -15,6 +17,6 @@ This is done so that people do not create models that overfits/replicates the an
 
 #### Which model did you use (just pick one of them) and how did you control its flexibility? When did you make it more flexible and when did you make it less?
 
-Logistic Regression is one of the models are used 
+Logistic Regression is one of the models used in my code. It's flexibility was controlled by hypertuning the parameters for a certain range - the smaller the range provided, the less flexibility it had. When the model started to perform poorly/little increase than before with F1-score, I relaxed the model and vice versa.
 
 #### -------------------------------------------------------------
