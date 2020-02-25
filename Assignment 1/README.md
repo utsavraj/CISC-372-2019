@@ -1,3 +1,12 @@
-### Note
+### Note:
 * **A1.ipynb** contains the running to model to. find the best hypertuned model for the AirBnB dataset
 * **A1_example (Commented).ipynb** contains the commented example code
+
+# Assisgment One Q&A
+
+## So here we have a public leaderboard and a private leaderboard. Each of them use a different subset of the testing set test.csv (well we can just treat them as two different testing sets). For the public leaderboard, you can try 3 times per day and observe the performance right away. Why should we limit the number of trials per day?
+
+## For the private leaderboard, it will be used only after the assignment submission deadline for evaluation. Why it is designed like this??
+
+## Which model did you use (just pick one of them) and how did you control its flexibility? When did you make it more flexible and when did you make it less?
+
