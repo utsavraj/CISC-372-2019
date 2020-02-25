@@ -2,6 +2,16 @@
 * **A1.ipynb** contains the running to model to. find the best hypertuned model for the AirBnB dataset
 * **A1_example (Commented).ipynb** contains the commented example code
 
+# Final Design
+* Used the already preprocessed data given the example to train several classificaton models
+* Choose the two highest F1-macro score models - Logistic Regression (0.67877) & Random Forest (0.674981)
+* For Both Models:
+  * Used Randomsied Search CV (5 Times CV)  to get an idea for range for parameters to tune
+  * Used Grid Search CV (5 Times CV) to get the ideal parameters value
+* Used the best model (Logistic Regression) to predict the test set provided and submitted the answer on Kaggle 
+* If Significant increase in accuracy then, continued with Grid Search with lower range, otherwise decrease the number of parameters to tune
+* Repeat the last two steps with the other model (Random Forest).
+
 # Assignment One Q&A
 
 #### So here we have a public leaderboard and a private leaderboard. Each of them use a different subset of the testing set test.csv (well we can just treat them as two different testing sets). For the public leaderboard, you can try 3 times per day and observe the performance right away. Why should we limit the number of trials per day?
