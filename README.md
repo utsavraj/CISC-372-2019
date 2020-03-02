@@ -1,4 +1,4 @@
 # CISC-372
 Please Look at the Assigment 1 folder
 
-<img src="/CheatSheet.PNG" width="150" align="left" hspace="10" vspace="10">
+<img src="/CheatSheet.PNG" width="150" align="left" hspace="100" vspace="100">
