@@ -14,8 +14,7 @@
 # Assignment Q&A
 
 #### For script A2, what is the purpose of `class_weight='balanced'` in cell #3?
-
-Sample Text
+`class_weight='balanced'` automatically adjust weights inversely proportional to class frequencies (tfidf) in the input data. The idea behind this is that to increase the penalty for misclassifying minority classes to prevent them from being “overwhelmed” by the majority class.
 
 #### -------------------------------------------------------------
 
