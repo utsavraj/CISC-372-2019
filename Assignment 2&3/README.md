@@ -34,7 +34,7 @@ We still using cross-validation as we are divide the training dataset into 80% f
 
 #### In script A3, what is the tensor shape of the output from `keras.layers.CuDNNGRU(100)`?
 
-The tensor shape of the output from `keras.layers.CuDNNGRU(100)` is (8 * 100) based on the source code on [GitHub]
+The tensor shape of the output from `keras.layers.CuDNNGRU(100)` is (6 * 100) based on the source code on [GitHub]
 
 #### -------------------------------------------------------------
 
@@ -44,4 +44,4 @@ The purpose of `clipnorm=4` is that all parameter gradients will be clipped to 
 
 #### -------------------------------------------------------------
 
-[GitHub]: https://github.com/tensorflow/tensorflow/blob/a6d8ffae097d0132989ae4688d224121ec6d8f35/tensorflow/python/keras/layers/cudnn_recurrent.py#L449
+[GitHub]: https://github.com/tensorflow/tensorflow/blob/a6d8ffae097d0132989ae4688d224121ec6d8f35/tensorflow/python/keras/layers/cudnn_recurrent.py#L261
