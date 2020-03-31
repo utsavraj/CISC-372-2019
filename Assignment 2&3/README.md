@@ -1,8 +1,8 @@
 ### Note:
-* **A2.ipynb** contains the running to model to. find the best hypertuned model for the Amazon dataset
-* **A2_example (Commented).ipynb** contains the commented example code
-* **A3.ipynb** contains the running to model to. find the best hypertuned model for the Amazon dataset
-* **A3_example (Commented).ipynb** contains the commented example code
+* **A2.ipynb** contains the modified script to to find the best hypertuned model for the Amazon dataset
+* **A2_example (Commented).ipynb** contains the commented example code provided by the teacher
+* **A3.ipynb** contains the modified script to to find the best hypertuned model for the Amazon dataset
+* **A3_example (Commented).ipynb** contains the commented example code provided by the teacher
 
 # Final Design
 ## For A2:
