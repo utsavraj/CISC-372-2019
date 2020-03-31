@@ -1,2 +1,44 @@
+### Note:
+* **A2.ipynb** contains the running to model to. find the best hypertuned model for the AirBnB dataset
+* **A2_example (Commented).ipynb** contains the commented example code
+* **A3.ipynb** contains the running to model to. find the best hypertuned model for the AirBnB dataset
+* **A3_example (Commented).ipynb** contains the commented example code
 
-## Assignment Q&A
+# Final Design
+## For A2:
+* Sample Text
+
+## For A3:
+* Sample Text
+
+# Assignment Q&A
+
+#### For script A2, what is the purpose of `class_weight='balanced'` in cell #3?
+
+Sample Text
+
+#### -------------------------------------------------------------
+
+#### In script A2, CountVectorizer is responsible for preprocessing. How can we add stop word removal by using this class? How can we change word-based n-gram to char-based ngram using this class?
+
+Sample Text
+
+#### -------------------------------------------------------------
+
+#### In Assignment #1, we use GridSearchCV with cross-validation. In A2, are we still using cross-validation? If not, what did we use?
+
+Sample Text
+
+#### -------------------------------------------------------------
+
+#### In script A3, what is the tensor shape of the output from `keras.layers.CuDNNGRU(100)`?
+
+Sample Text
+
+#### -------------------------------------------------------------
+
+####  In script A3, what is the purpose of `clipnorm=4`. for the Adam optimizer? Why we need to do it?
+
+Sample Text
+
+#### -------------------------------------------------------------
