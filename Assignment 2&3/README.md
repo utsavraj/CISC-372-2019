@@ -21,7 +21,10 @@ Sample Text
 
 #### In script A2, CountVectorizer is responsible for preprocessing. How can we add stop word removal by using this class? How can we change word-based n-gram to char-based ngram using this class?
 
-Sample Text
+analyzerstring, {‘word’, ‘char’, ‘char_wb’} or callable
+Whether the feature should be made of word n-gram or character n-grams. Option ‘char_wb’ creates character n-grams only from text inside word boundaries; n-grams at the edges of words are padded with space.
+
+If a callable is passed it is used to extract the sequence of features out of the raw, unprocessed input.
 
 #### -------------------------------------------------------------
 
