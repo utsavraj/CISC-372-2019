@@ -28,7 +28,7 @@ For `CountVectorizer`, we can pass the parameter:
 
 #### In Assignment #1, we use GridSearchCV with cross-validation. In A2, are we still using cross-validation? If not, what did we use?
 
-Sample Text
+We still using cross-validation as we are divide the training dataset into 80% for training the model and 20% to testing the model to see how it performs with different parameters.
 
 #### -------------------------------------------------------------
 
