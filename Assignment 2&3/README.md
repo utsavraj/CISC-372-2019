@@ -21,8 +21,8 @@
 #### In script A2, CountVectorizer is responsible for preprocessing. How can we add stop word removal by using this class? How can we change word-based n-gram to char-based ngram using this class?
 
 For `CountVectorizer`, we can pass the parameter:
-* stopword to add stop word removal eg. `stop_words='english'` for English
-* analyzer to change word-based n-gram to char-based ngram eg. `analyzer='char'`
+* `stopword` to add stop word removal eg. `stop_words='english'` for English
+* `analyzer` to change word-based n-gram to char-based ngram eg. `analyzer='char'`
 
 #### -------------------------------------------------------------
 
