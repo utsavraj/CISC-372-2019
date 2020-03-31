@@ -34,12 +34,11 @@ Sample Text
 
 #### In script A3, what is the tensor shape of the output from `keras.layers.CuDNNGRU(100)`?
 
-Sample Text
+The tensor shape of the output from `keras.layers.CuDNNGRU(100)` is (8 * 100) based on the source code on GitHub
 
 #### -------------------------------------------------------------
 
 ####  In script A3, what is the purpose of `clipnorm=4`. for the Adam optimizer? Why we need to do it?
-
-Sample Text
+All parameter gradients will be clipped to a maximum norm of 4. This helps in preventing messing up of parameters due to vanishing/exploding gradients and losing the progress made while training the network.
 
 #### -------------------------------------------------------------
