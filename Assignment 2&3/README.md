@@ -1,7 +1,7 @@
 ### Note:
-* **A2.ipynb** contains the running to model to. find the best hypertuned model for the AirBnB dataset
+* **A2.ipynb** contains the running to model to. find the best hypertuned model for the Amazon dataset
 * **A2_example (Commented).ipynb** contains the commented example code
-* **A3.ipynb** contains the running to model to. find the best hypertuned model for the AirBnB dataset
+* **A3.ipynb** contains the running to model to. find the best hypertuned model for the Amazon dataset
 * **A3_example (Commented).ipynb** contains the commented example code
 
 # Final Design
