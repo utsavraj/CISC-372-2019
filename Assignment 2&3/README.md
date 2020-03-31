@@ -34,7 +34,7 @@ Sample Text
 
 #### In script A3, what is the tensor shape of the output from `keras.layers.CuDNNGRU(100)`?
 
-The tensor shape of the output from `keras.layers.CuDNNGRU(100)` is (8 * 100) based on the source code on GitHub
+The tensor shape of the output from `keras.layers.CuDNNGRU(100)` is (8 * 100) based on the source code on [GitHub]
 
 #### -------------------------------------------------------------
 
@@ -43,3 +43,5 @@ The tensor shape of the output from `keras.layers.CuDNNGRU(100)` is (8 * 100) ba
 The purpose of `clipnorm=4` is that all parameter gradients will be clipped to a maximum norm of 4. This helps in preventing messing up of parameters due to vanishing/exploding gradients and losing the progress made while training the network.
 
 #### -------------------------------------------------------------
+
+[GitHub]: https://github.com/tensorflow/tensorflow/blob/a6d8ffae097d0132989ae4688d224121ec6d8f35/tensorflow/python/keras/layers/cudnn_recurrent.py#L449
