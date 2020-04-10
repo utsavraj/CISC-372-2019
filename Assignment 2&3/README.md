@@ -1,15 +1,14 @@
 ### Note:
 * **A2.ipynb** contains the modified script to to find the best hypertuned model for the Amazon dataset
 * **A2_example (Commented).ipynb** contains the commented example code provided by the teacher
-* **A3.ipynb** contains the modified script to to find the best hypertuned model for the Amazon dataset
 * **A3_example (Commented).ipynb** contains the commented example code provided by the teacher
 
 # Final Design
-## For A2:
-* Sample Text
-
-## For A3:
-* Sample Text
+## We choose to improve Assignment 2's code has it already has a very high accuracy at 92.273%
+* First, we played around with the parameters of SVC model to see if we can increase the f1-mean score.
+  * We went through C, alpha (different values than the comment), penalty (different values than the comment),  gamma and all of them's best performance were their default values.
+  * Only changing the kernel to sigmoid increase the f1-mean score by around 1.5%
+* It felt due to the metrics that our data was overfitting the training data and in order to decrease not only this issue but also to not rely on only a single classifier, Bagging was used (creates an ensemble of model). Thus, we reached to the accuracy of 94.298% 
 
 # Assignment Q&A
 
