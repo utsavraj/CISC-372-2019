@@ -9,6 +9,7 @@
   * We went through C, alpha (different values than the comment), penalty (different values than the comment),  gamma and all of them's best performance were their default values.
   * Only changing the kernel to sigmoid increase the f1-mean score by around 1.5%
 * It felt due to the metrics that our data was overfitting the training data and in order to decrease not only this issue but also to not rely on only a single classifier, Bagging was used (Building multiple models of the same type for our case from different subsamples of the training dataset). Thus, we reached to the accuracy of 94.298% 
+  * Tried the parameters of Bagging like bootstrap_features, warm_start etc but best parameters were still the default.
 
 # Assignment Q&A
 
